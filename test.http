@@ -1,0 +1,27 @@
+POST localhost:5000/v1/users
+Content-Type: application/json
+
+{
+  "name": "mail",
+  "email": "mail@mail.ru",
+  "age": 18
+}
+
+###
+
+GET localhost:5000/v1/users
+
+###
+
+PATCH localhost:5000/v1/users/0
+Content-Type: application/json
+
+{
+  "name": "Magomed",
+  "email": "onemgvv",
+  "age": "19"
+}
+
+###
+
+GET localhost:5000/v1/users
